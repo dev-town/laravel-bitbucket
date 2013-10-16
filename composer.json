@@ -1,0 +1,28 @@
+{
+    "name": "devtown/bitbucket",
+    "description": "Bitbucket API",
+    "keywords": ["bitbucket", "laravel", "php"],
+    "authors": [
+        {
+            "name": "Andy Russell",
+            "email": "andy.r@dev-town.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "guzzle/guzzle": "3.5.*@dev"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.7.2"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Devtown\\Bitbucket": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
